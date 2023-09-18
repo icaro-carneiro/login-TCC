@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Courier New', Courier, monospace;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #480ca8;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   border-radius: 7px;
+   padding: 40px;
+   box-shadow: 10px 10px 40px rgba(0,0,0, 0.4);
+   gap: 5px;
+   width: 80%;
+   height: 80vh;
+}
+
+.descricao-login{
+    margin: 30px;
+}
+
+.descricao-login h1{
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.descricao-login span{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.descricao-login hr{
+    margin-top: 5px;   
+}
+
+.campo-input {
+}
+
+.campo-input label{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.campo-input input{
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.campo-input input:focus{
+    border: 1px solid #25f78b;
+}
+
+.esqueceu-senha a{
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.esqueceu-senha a:hover{
+    color: #a725f7;
+}
+
+.botao{
+    display: flex;
+   flex-direction: column;
+}
+
+.botao input{
+    background-color: #a725f7;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.botao input:hover{
+    transform: scale(1.05);
+    background-color: #7e1cbb;
+}

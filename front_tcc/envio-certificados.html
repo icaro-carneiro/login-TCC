@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio - Certificado</title>
+
+    <link rel="stylesheet" href="./src/CSS/envio-certificado.css">
+</head>
+<body>
+    <div class="container">
+        <div class="descricao-envio">
+           <h1>Envie Seu Certificado</h1>
+           <span>Preencha os campos abaixo para enviar seu certificado.</span>
+           <hr>
+        </div>
+
+        <form action="#" class="formulario">
+            <div class="group-input">
+                <div class="campo-input">
+                    <label for="titulo">Título:</label>
+                    <input id="titulo" type="text" name="titulo" placeholder="Digite o título">
+                </div>
+
+                <div class="campo-input">
+                    <label for="descricao">Descrição:</label>
+                    <input id="descricao" type="text" name="descricao" placeholder="Descrição">
+                </div>
+
+                <div class="campo-input">
+                    <label for="tipo-cert">Tipo de Certificado:</label>
+                    <select name="tipo" id="tipo-cert">
+                        <option value="Selecione">Selecione</option>
+                        <option value="tipo1">tipo 1</option>
+                        <option value="tipo2">tipo 2</option>
+                    </select>
+                </div>
+                
+                <div class="campo-input">
+                    <label for="horas">Horas:</label>
+                    <input id="horas" type="number" name="horas" placeholder="Quantidade de Horas">
+                </div>
+
+                <div class="campo-input">
+                    <label for="anexo">Anexo:</label>
+                    <input id="anexo" type="file" name="arquivo">
+                </div>
+
+                <div class="campo-input">
+                    <label for="data">Data:</label>
+                    <input id="data" type="date" name="data">
+                </div>
+
+                <div class="campo-input">
+                    <label for="instituicao">Instituição:</label>
+                    <input id="instituicao" type="text" name="instituicao" placeholder="Digite o nome da instituição">
+                </div>
+
+                <div class="botao">
+                    <input 
+                    id="botao"
+                    type="submit"
+                    name="botao"
+                    value="Enviar">
+                </div>
+               
+            </div>
+        </form>
+    </div>
+</body>
+</html>

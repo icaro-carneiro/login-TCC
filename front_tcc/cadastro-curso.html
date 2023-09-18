@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Curso</title>
+
+    <link rel="stylesheet" href="./src/CSS/cadastro-curso.css">
+</head>
+<body>
+    <div class="container">
+        <div class="descricao-curso-cadastro">
+            <h1>Cadastre</h1>
+            <span>Preencha as informações abaixo para cadastrar um curso</span>
+            <hr>
+        </div>
+
+        <form method="POST" class="formulario">
+            <div class="campo-input">
+                <label for="name">Nome:</label>
+                <input id="name" type="text" name="name" placeholder="Digite o nome do curso" required autofocus="true">
+            </div>
+
+            <div class="campo-input">
+                <label for="horas">Horas:</label>
+                <input id="horas" type="number" name="horas" placeholder="Defina o máximo de horas do curso" min="0" required>
+            </div>
+
+            <div class="campo-select">
+                <label for="select">Semestre:</label>
+                <select name="select" id="select">
+                    <option value="1">1 Semestre</option>
+                    <option value="2">2 Semestre</option>
+                    <option value="3">3 Semestre</option>
+                    <option value="4">4 Semestre</option>
+                    <option value="5">5 Semestre</option>
+                    <option value="6">6 Semestre</option>
+                    <option value="7">7 Semestre</option>
+                    <option value="8">8 Semestre</option>
+                    <option value="9">9 Semestre</option>
+                    <option value="10">10 Semestre</option>
+                    <option value="11">11 Semestre</option>
+                    <option value="12">12 Semestre</option>
+                </select>
+            </div>
+
+            <div class="botao">
+                <input id="botao" type="submit" name="botao" value="Cadastrar">
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
